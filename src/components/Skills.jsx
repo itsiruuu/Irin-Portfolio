@@ -4,7 +4,7 @@ import { Sparkles } from 'lucide-react';
 
 export default function Skills() {
   return (
-    <section id="skills" className="relative z-10 bg-cream-pink/70 border-b-[1.5px] border-blush-border py-20 md:py-28">
+    <section id="skills" className="relative z-10 border-b-[1.5px] border-blush-border py-20 md:py-28">
       <div className="max-w-4xl mx-auto px-5 sm:px-8">
         
         {/* Section Header */}

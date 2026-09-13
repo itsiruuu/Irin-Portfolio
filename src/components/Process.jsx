@@ -11,7 +11,7 @@ const iconMap = {
 
 export default function Process() {
   return (
-    <section id="process" className="relative z-10 bg-blush/85 border-b-[1.5px] border-blush-border py-20 md:py-28">
+    <section id="process" className="relative z-10 border-b-[1.5px] border-blush-border py-20 md:py-28">
       <div className="max-w-5xl mx-auto px-5 sm:px-8">
         
         {/* Section Header */}

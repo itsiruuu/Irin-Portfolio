@@ -4,7 +4,7 @@ import { Sparkles, Terminal, Layers, Compass } from 'lucide-react';
 
 export default function About() {
   return (
-    <section id="about" className="relative z-10 bg-blush/85 border-b-[1.5px] border-blush-border py-20 md:py-28">
+    <section id="about" className="relative z-10 border-b-[1.5px] border-blush-border py-20 md:py-28">
       <div className="max-w-4xl mx-auto px-5 sm:px-8">
         
         {/* Section Header */}

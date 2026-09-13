@@ -1,5 +1,4 @@
 import React from 'react';
-import BackgroundVideo from './components/BackgroundVideo';
 import CustomCursor from './components/CustomCursor';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -20,14 +19,6 @@ export default function App() {
         - pointer: fine only, disabled on touch and prefers-reduced-motion
       */}
       <CustomCursor />
-
-      {/* 
-        Fixed Video Background (Site-wide)
-        - stays fixed while sections scroll over it (relative z-10)
-        - RAF 0.5s fade loop
-        - mobile static ambient gradient fallback
-      */}
-      <BackgroundVideo />
 
       {/* Main Content Flow in Exact Order */}
       <div className="relative z-10">

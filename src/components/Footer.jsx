@@ -9,8 +9,14 @@ export default function Footer() {
   };
 
   return (
-    <footer className="relative z-10 bg-blush/90 py-12 md:py-16">
-      <div className="max-w-5xl mx-auto px-5 sm:px-8">
+    <footer className="relative z-10 overflow-hidden py-12 md:py-16">
+      <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none" aria-hidden="true">
+        <span className="font-heading text-[clamp(7rem,24vw,20rem)] font-semibold leading-none tracking-widest text-raspberry/[0.06]">
+          IRIN
+        </span>
+      </div>
+
+      <div className="relative z-10 max-w-5xl mx-auto px-5 sm:px-8">
         
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 pb-10 border-b border-blush-border/70">
           

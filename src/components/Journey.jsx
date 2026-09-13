@@ -3,8 +3,12 @@ import { journeyData } from '../data/portfolioData';
 import { Calendar, GraduationCap, Compass } from 'lucide-react';
 
 export default function Journey() {
-  return (
-    <section id="journey" className="relative z-10 bg-blush/85 border-b-[1.5px] border-blush-border py-20 md:py-28">
+  // Temporarily disabled. Return the section below when the Journey block is needed again.
+  return null;
+
+  if (false) {
+    return (
+    <section id="journey" className="relative z-10 border-b-[1.5px] border-blush-border py-20 md:py-28">
       <div className="max-w-4xl mx-auto px-5 sm:px-8">
         
         {/* Section Header */}
@@ -89,5 +93,6 @@ export default function Journey() {
 
       </div>
     </section>
-  );
+    );
+  }
 }

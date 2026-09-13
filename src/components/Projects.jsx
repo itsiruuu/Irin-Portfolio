@@ -151,7 +151,7 @@ function ProjectIllustration({ type }) {
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative z-10 bg-cream-pink/70 border-b-[1.5px] border-blush-border py-20 md:py-28">
+    <section id="projects" className="relative z-10 border-b-[1.5px] border-blush-border py-20 md:py-28">
       <div className="max-w-5xl mx-auto px-5 sm:px-8">
         
         {/* Section Header */}
@@ -182,7 +182,15 @@ export default function Projects() {
                 
                 {/* SVG Illustration Container (left on even, right on odd) */}
                 <div className="w-full md:w-1/2 aspect-[4/3] rounded-2xl overflow-hidden border border-blush-border/80 shadow-raspberry-sm flex items-center justify-center bg-cream-pink/50 group-hover:scale-[1.01] transition-transform duration-300">
-                  <ProjectIllustration type={project.accentType} />
+                  {project.imageUrl ? (
+                    <img
+                      src={project.imageUrl}
+                      alt={`${project.title} preview`}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <ProjectIllustration type={project.accentType} />
+                  )}
                 </div>
 
                 {/* Content Details */}
